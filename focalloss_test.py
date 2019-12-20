@@ -11,6 +11,7 @@ import argparse
 
 from focalloss import *
 
+
 floss = FocalLoss(gamma=0)
 crossloss = nn.CrossEntropyLoss()
 nllloss = nn.NLLLoss2d()
